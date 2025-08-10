@@ -1,7 +1,7 @@
 services:
   netbox:
     ports:
-      - "8000:8080"
+      - "8010:8080"
     # If you want the Nginx unit status page visible from the
     # outside of the container add the following port mapping:
     # - "8001:8081"
