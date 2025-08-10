@@ -97,3 +97,8 @@ volumes:
     driver: local
   netbox-scripts-files:
     driver: local
+    
+services:
+  netbox:
+    ports:
+      - "8010:8080"
